@@ -23,8 +23,9 @@
             <TextBox Name="textVAT" Text="{Binding ElementName=comboBoxVAT, Path=SelectedValue.Content}" Canvas.Top="91" Width="140" Canvas.Left="121"></TextBox>
             <Label Content="Путь сохранения" Canvas.Top="110" Width="106" Height="31" Canvas.Left="15"/>
             <TextBox x:Name="textSavePath" Width="auto" Canvas.Left="121" Canvas.Top="114" Height="20"></TextBox>
-            <TextBox x:Name="textName" Canvas.Top="139" Width="160" Canvas.Left="121" Height="20">НДС.xlsx</TextBox>
             <Label Content="Имя файла" Canvas.Left="50" Canvas.Top="137" Width="71" RenderTransformOrigin="0.648,1.385"></Label>
+            <TextBox x:Name="textName" Canvas.Top="139" Width="160" Canvas.Left="121" Height="20">НДС.xlsx</TextBox>
+            
             <Button Content="Проверить и сохранить" Click="Button_Click" Height="23" Canvas.Top="215" Width="160" Canvas.Left="121" />
         </Canvas>
     </Grid>
